@@ -1,0 +1,47 @@
+body {
+    background-color: darkturquoise;
+    font-size: 100%;
+header{
+    background-color: blue;
+}
+
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+h4 {
+    font-size: 1.5em;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+p {
+    font-size: 1.5em;
+    color: darkmagenta;
+}
+
+img.logo {
+    width: 100px
+}
+img#hero-img {
+    width: 100%;
+}
+
+
+
+div.social img {
+    width: 80px;
+}
+
+
+
+img.card-img {
+    display: block;
+    margin: 0 auto;
+}
