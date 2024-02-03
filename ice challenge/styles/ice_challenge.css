@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+    font-size: 100%;
+}
+
+img.max-width{
+   max-width: 200px; 
+}
+
+img.card-img {
+    display: block;
+    margin: 0 auto;
+}
