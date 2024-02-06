@@ -18,13 +18,10 @@ main section{
 }
 
 #background{
-   
     height: 725px;
     width: 100%;
     background-color: #D81159;
 }
-
-
 body{
     background-color: #E6E6E6;
 }
