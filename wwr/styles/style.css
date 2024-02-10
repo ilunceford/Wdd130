@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&family=Raleway:wght@200&display=swap');
+
+
 div{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,7 @@ nav a{
     text-align: center;
     color: #EF5D60;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -24,6 +28,10 @@ main section{
 }
 body{
     background-color: #E6E6E6;
+    font-family: Raleway, Oswald, Open-Sans  ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #50D8D7;
@@ -36,6 +44,10 @@ nav a:hover{
     color: #FF2ECC;
     background-color: #20FC8F;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: #E6E6E6;
@@ -43,10 +55,14 @@ nav a:hover{
 }
 .msg{
     background-color: #353831;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #FF6B6B;
     color:#50D8D7;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #A01A7D;
@@ -56,9 +72,12 @@ h4{
 }
 .msg h2{
     color: #E9D758;
+    font-family: Raleway, Oswald, Open-Sans  ;
 }
 .msg p{
     color: #AAFAC8;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #000000;
@@ -79,3 +98,32 @@ footer p a:hover {
 #hero-img {
     width: 100%;
 }
+.home-title{
+    font-family: Raleway, Oswald, Open-Sans  ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000;
+}
+main section img{
+    box-sizing: border-box;
+}
+
+
+

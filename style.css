@@ -1,13 +1,13 @@
 #first {
     color: red
-    font-size: 32px;
-    font-weight: bold;
     font-family: Veranda;
+    font-weight: bold;
+    font-size: 32px;
 }
 plain {
-    font-size:32px
-    backround-color: yellow;
     color: purple;
+    background-color: yellow;
+    font-size:32px
 }
 
 #last {
