@@ -34,7 +34,7 @@ main section {
 
 body {
     background-color: #E6E6E6;
-    font-family: Raleway, Oswald, Open-Sans;
+    font-family: Raleway, Oswald, "Open Sans";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -89,7 +89,7 @@ h4 {
 
 .msg h2 {
     color: #E9D758;
-    font-family: Raleway, Oswald, Open-Sans;
+    font-family: Raleway, Oswald, "Open Sans";
 }
 
 .msg p {
@@ -124,7 +124,7 @@ footer p a:hover {
 }
 
 .home-title {
-    font-family: Raleway, Oswald, Open-Sans;
+    font-family: Raleway, Oswald, "Open Sans";
     font-size: 2em;
     margin-top: 10px;
 }
