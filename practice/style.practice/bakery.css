@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+#header-content{
+    display: grid;
+    grid-template-columns: 100px 1fr ;
+}
+#content{
+    max-width:  700px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: pink;
+}
+#header-content{
+    display: grid;
+    grid-template-columns: 100px 1fr 25px;
+    gap: 1em;
+}
+nav ul{
+    list-style: disc;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+nav li{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
