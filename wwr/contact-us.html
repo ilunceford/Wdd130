@@ -4,9 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <style>
+    header {
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+footer {
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#background {
+    height: 725px;
+    background-color: burlywood;
+}
     form {
       /* Just to center the form on the page */
       margin: 0 auto;
@@ -88,6 +107,19 @@
 </head>
 
 <body>
+  <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rivers.html">Page 2</a>
+            <a href="site_plan_rafting.html">Site Plan</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+</div>
   <div id="feedback">
     <form action="/my-handling-form-page" method="post">
       <ul>
@@ -109,6 +141,22 @@
       </ul>
     </form>
   </div>
+  <footer>
+    <p>Dry Oar © 2024 - Israel Lunceford</p>
+    <p><a href="site_plan_rafting.html">Site Plan</a></p>
+    <p><a href="contact-us.html">Contact Us</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
   <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
