@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    position: fixed;
+    background-color: #BA2D0B;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Montserrat, Arimo, "Open Sans", ;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #BA2D0B;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Montserrat, Arimo, "Open Sans", ;
+    font-size: 1em;
+}
+
+.links {
+    font-family: Arimo, "Open Sans", Montserrat;
+    text-align: center;
+    font-size: 1em;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #C4E0F9;
+    font-family: Montserrat, "Open Sans", Arimo;
+    margin: 0;
+    padding: 0;
+}
+#first-paragraph {
+    line-height: 1.5em;
+    padding: 35px;
+}
+#second-paragraph {
+    line-height: 1.5em;
+    padding: 35px;
+}
+.first-photo {
+    display: flex;
+    justify-content: center;
+    max-height: 800px;
+}
+
+.second-photo {
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.5em;
+
+}
+
+.copy-right {
+    text-align: center;
+}
